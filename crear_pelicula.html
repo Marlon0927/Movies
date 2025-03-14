@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Añadir Película</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1 class="mt-4">Añadir Nueva Película</h1>
+        <form id="formulario">
+            <div class="form-group">
+                <label for="titulo">Título</label>
+                <input type="text" class="form-control" id="titulo" required>
+            </div>
+            <div class="form-group">
+                <label for="descripcion">Descripción</label>
+                <textarea class="form-control" id="descripcion" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="imagen">Imagen (URL)</label>
+                <input type="text" class="form-control" id="imagen" required>
+            </div>
+            <div class="form-group">
+                <label for="duracion">Duración</label>
+                <input type="text" class="form-control" id="duracion" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Añadir Película</button>
+        </form>
+        <!-- Botón para volver al index -->
+        <a href="index.html" class="btn btn-secondary mt-3">Volver al Index</a>
+    </div>
 </body>
+
 </html>
