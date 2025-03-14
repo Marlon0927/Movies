@@ -14,6 +14,14 @@
  /*! lineas modificadas recuadro linea 20 a la 56*/
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 
+
+.carousel-item img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 400px; /* Ajusta esta altura según necesites */
+    object-fit: cover; /* Evita distorsiones y mantiene la imagen centrada */
+}
+
+
 #titulo {
     text-align: center;
 }
