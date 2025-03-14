@@ -7,4 +7,12 @@ document.getElementById('formulario').addEventListener('submit', function (event
     const imagen = document.getElementById('imagen').value;
     const duracion = document.getElementById('duracion').value;
 
+    // Crear un objeto de película
+    const nuevaPelicula = {
+        titulo: titulo,
+        descripcion: descripcion,
+        imagen: imagen,
+        duracion: duracion
+    };
+
 });
