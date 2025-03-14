@@ -15,4 +15,15 @@ document.getElementById('formulario').addEventListener('submit', function (event
         duracion: duracion
     };
 
+        // Guardar la nueva película en el almacenamiento local
+        let peliculas = JSON.parse(localStorage.getItem('peliculas')) || [];
+        peliculas.push(nuevaPelicula);
+        localStorage.setItem('peliculas', JSON.stringify(peliculas));
+    
+        // Mostrar una alerta de éxito
+        alert("¡Película creada exitosamente!");
+    
+        // Redirigir al usuario a la página principal (index.html)
+        window.location.href = 'index.html';
+
 });
