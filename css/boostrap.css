@@ -21,6 +21,28 @@
     object-fit: cover; /* Evita distorsiones y mantiene la imagen centrada */
 }
 
+/* Ajuste del tamaño de las imágenes en el carrusel */
+.carousel-item img {
+    width: 100%;
+    /* Asegura que la imagen se adapte al ancho del contenedor */
+    height: 400px;
+    /* Define la altura fija */
+    object-fit: cover;
+    /* Evita deformaciones y recorta los bordes si es necesario */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(71, 176, 247, 0.781);
+    border-radius: 10%;
+    padding: 10px;
+}
+
 
 #titulo {
     text-align: center;
