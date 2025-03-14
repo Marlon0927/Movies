@@ -11,14 +11,17 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- /*! lineas modificadas recuadro linea 20 a la 56*/
+/*! lineas modificadas recuadro linea 20 a la 56*/
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 
 
 .carousel-item img {
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: 400px; /* Ajusta esta altura según necesites */
-    object-fit: cover; /* Evita distorsiones y mantiene la imagen centrada */
+    width: 100%;
+    /* La imagen ocupará todo el ancho del contenedor */
+    height: 400px;
+    /* Ajusta esta altura según necesites */
+    object-fit: cover;
+    /* Evita distorsiones y mantiene la imagen centrada */
 }
 
 /* Ajuste del tamaño de las imágenes en el carrusel */
@@ -47,17 +50,24 @@
 #titulo {
     text-align: center;
 }
+
 .recuadro img {
     width: 100%;
-    height: 300px; /* Ajusta la altura según necesites */
-    object-fit: contain; /* Evita que la imagen se recorte */
-    border-radius: 5px; /* Opcional: bordes redondeados */
-    margin-bottom: 15px; /* Espacio entre la imagen y el título */
+    height: 300px;
+    /* Ajusta la altura según necesites */
+    object-fit: contain;
+    /* Evita que la imagen se recorte */
+    border-radius: 5px;
+    /* Opcional: bordes redondeados */
+    margin-bottom: 15px;
+    /* Espacio entre la imagen y el título */
 }
+
 .recuadro .titulo {
     font-size: 1.25rem;
     margin-bottom: 10px;
 }
+
 .recuadro {
     border: 1px solid #ddd;
     padding: 20px;
@@ -66,13 +76,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 300px; 
-    height: 100%; 
+    min-height: 300px;
+    height: 100%;
     margin-bottom: 40px;
 }
 
 .recuadro .descripcion {
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .recuadro-container {
@@ -80,6 +90,7 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 40px;
 }
+
 .recuadro .descripcion {
     font-size: 1rem;
     color: #b3b3b3;
